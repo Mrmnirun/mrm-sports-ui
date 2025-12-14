@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { BOOKING_URL } from '../../config/siteConfig';
+import logoUrl from '../../assets/logo.png';
 
 export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,15 +20,10 @@ export function Navigation() {
         <div className="flex justify-between items-center h-20">
           {/* Logo and Brand */}
           <div className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-              <svg viewBox="0 0 24 24" fill="none" className="w-7 h-7 text-white">
-                <path d="M12 2L2 7V17L12 22L22 17V7L12 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                <path d="M12 12L12 22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-                <path d="M12 12L2 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-                <path d="M12 12L22 7" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-              </svg>
-            </div>
-            <span className="text-2xl font-bold text-primary">MRM Sports</span>
+              <div className="w-20 h-20 overflow-hidden flex items-center justify-center">
+                <img src={logoUrl} alt="MRM Sports logo" className="w-20 h-20 object-contain" />
+              </div>
+                <span style={{ color: 'var(--brand)' }} className="text-[1.8rem] font-bold">MRM Sports</span>
           </div>
 
           {/* Desktop Navigation */}
