@@ -2,7 +2,7 @@ import { BOOKING_URL } from '../../config/siteConfig';
 
 export function Hero() {
   return (
-    <section className="relative h-[50vh] flex items-center justify-center pt-20 bg-black">
+    <section className="relative min-h-screen flex items-center justify-center pt-20">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
