@@ -1,0 +1,106 @@
+[
+  {
+    "id": "lane1",
+    "name": "Cricket Lane 1",
+    "images": [
+      "https://images.unsplash.com/photo-1582617578126-4bdcead11e80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbmV0cyUyMHRyYWluaW5nfGVufDF8fHx8MTc2NTcwMTcwNXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://images.unsplash.com/photo-1641352848874-c96659e03144?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmRvb3IlMjBjcmlja2V0JTIwZmFjaWxpdHl8ZW58MXx8fHwxNzY1NzAxNjYwfDA&ixlib=rb-4.1.0&q=80&w=1080"
+    ],
+    "description": "Professional cricket training lane with premium turf surface and full-length pitch.",
+    "rules": [
+      "Maximum 4 players per booking",
+      "Bookings are in 1-hour slots",
+      "Arrive 10 minutes early for setup"
+    ],
+    "allowed": [
+      "Personal cricket equipment",
+      "Soft drinks and water",
+      "Cricket coaching sessions",
+      "Video recording for analysis"
+    ],
+    "notAllowed": [
+      "Outside food",
+      "Hard cricket balls (indoor balls only)",
+      "Non-cricket activities",
+      "Smoking and alcohol"
+    ],
+    "pricing": "$60/hour | $200/4 hours",
+    "instructions": [
+      "Check in at reception desk",
+      "Wear appropriate cricket shoes",
+      "Return all equipment after use",
+      "Report any damage immediately"
+    ],
+    
+  },
+  {
+    "id": "lane2",
+    "name": "Cricket Lane 2",
+    "images": [
+      "https://images.unsplash.com/photo-1745180266203-5d648c4f4f37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwcGl0Y2glMjBpbmRvb3J8ZW58MXx8fHwxNzY1NzAxNzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://images.unsplash.com/photo-1761757106447-e6f2aba2dad6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwdHJhaW5pbmclMjBiYXR0aW5nfGVufDF8fHx8MTc2NTcwMTY2MXww&ixlib=rb-4.1.0&q=80&w=1080"
+    ],
+    "description": "State-of-the-art training lane perfect for batting practice and skill development.",
+    "rules": [
+      "Maximum 4 players per booking",
+      "Bookings are in 1-hour slots",
+      "Arrive 10 minutes early for setup"
+    ],
+    "allowed": [
+      "Personal cricket equipment",
+      "Soft drinks and water",
+      "Cricket coaching sessions",
+      "Video recording for analysis"
+    ],
+    "notAllowed": [
+      "Outside food",
+      "Hard cricket balls (indoor balls only)",
+      "Non-cricket activities",
+      "Smoking and alcohol"
+    ],
+    "pricing": "$60/hour | $200/4 hours",
+    "instructions": [
+      "Check in at reception desk",
+      "Wear appropriate cricket shoes",
+      "Return all equipment after use",
+      "Report any damage immediately"
+    ],
+    
+  },
+  {
+    "id": "lane-bowling",
+    "name": "Cricket Lane with Bowling Machine",
+    "images": [
+      "https://images.unsplash.com/photo-1564936094874-9dbb71be4074?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxib3dsaW5nJTIwbWFjaGluZSUyMGNyaWNrZXR8ZW58MXx8fHwxNzY1NzAxNzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://images.unsplash.com/photo-1582617578126-4bdcead11e80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbmV0cyUyMHRyYWluaW5nfGVufDF8fHx8MTc2NTcwMTcwNXww&ixlib=rb-4.1.0&q=80&w=1080"
+    ],
+    "description": "Premium lane equipped with automated bowling machine for consistent practice sessions.",
+    "rules": [
+      "Maximum 3 players per booking",
+      "Bookings are in 1-hour slots",
+      "Machine operation training required",
+      "Staff supervision mandatory"
+    ],
+    "allowed": [
+      "Personal cricket equipment",
+      "Soft drinks and water",
+      "Cricket coaching sessions",
+      "Video recording for analysis"
+    ],
+    "notAllowed": [
+      "Operating machine without training",
+      "Outside food",
+      "Hard cricket balls (machine balls only)",
+      "Smoking and alcohol"
+    ],
+    "pricing": "$80/hour | $280/4 hours",
+    "instructions": [
+      "Complete bowling machine safety briefing",
+      "Check in at reception desk",
+      "Wear appropriate protective gear",
+      "Do not adjust machine settings without staff",
+      "Return all equipment after use"
+    ],
+    
+  }
+]
