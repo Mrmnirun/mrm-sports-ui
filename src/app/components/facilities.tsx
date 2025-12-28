@@ -42,7 +42,7 @@ export function Facilities() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 items-stretch">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-12 items-stretch">
           {facilities.map((facility) => (
             <div key={facility.id} className="bg-white rounded-2xl shadow-xl overflow-hidden flex flex-col h-full justify-between">
               <div className="flex flex-col">
