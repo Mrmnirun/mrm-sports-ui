@@ -37,12 +37,12 @@
   },
   {
     "id": "lane-bowling",
-    "name": "Cricket Lane with Bowling Machine",
+    "name": "Add on Bowling Machine",
     "images": [
       "https://images.unsplash.com/photo-1564936094874-9dbb71be4074?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxib3dsaW5nJTIwbWFjaGluZSUyMGNyaWNrZXR8ZW58MXx8fHwxNzY1NzAxNzA2fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "https://images.unsplash.com/photo-1582617578126-4bdcead11e80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbmV0cyUyMHRyYWluaW5nfGVufDF8fHx8MTc2NTcwMTcwNXww&ixlib=rb-4.1.0&q=80&w=1080"
     ],
-    "description": "Premium lane equipped with automated bowling machine for consistent practice sessions.",
+    "description": "Equip your lane with automated bowling machine for consistent practice sessions.",
     "rules": [
       "Only authorized users may operate the bowling machine",
       "Use only balls approved for bowling machine use",
