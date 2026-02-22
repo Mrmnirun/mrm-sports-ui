@@ -13,7 +13,6 @@ interface Facility {
   allowed: string[];
   notAllowed: string[];
   pricing: string;
-  instructions: string[];
   bookingUrl: string;
 }
 
@@ -124,22 +123,6 @@ export function Facilities() {
                           <div key={index} className="flex items-start gap-2">
                             <XCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
                             <span className="text-gray-700">{item}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </details>
-
-                    <details>
-                      <summary className="cursor-pointer font-semibold text-gray-900 p-3 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors">
-                        Instructions
-                      </summary>
-                      <div className="mt-4 space-y-2 pl-4">
-                        {facility.instructions.map((instruction, index) => (
-                          <div key={index} className="flex items-start gap-2">
-                            <span className="w-6 h-6 bg-primary text-white rounded-full flex items-center justify-center flex-shrink-0 text-sm">
-                              {index + 1}
-                            </span>
-                            <span className="text-gray-700">{instruction}</span>
                           </div>
                         ))}
                       </div>

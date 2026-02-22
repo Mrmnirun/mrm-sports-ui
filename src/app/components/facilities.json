@@ -8,30 +8,32 @@
     ],
     "description": "Professional cricket training lane with premium turf surface and full-length pitch.",
     "rules": [
+      "Check in at the reception desk before your session",
       "Maximum 4 players per booking",
-      "Bookings are in 1-hour slots",
-      "Arrive 10 minutes early for setup"
+      "Arrive 10 minutes early for setup",
+      "Wear non-marking indoor cricket shoes only",
+      "Return all rented equipment after use",
+      "Report any damage immediately",
+      "Complete the player waiver form before playing"
     ],
     "allowed": [
       "Personal cricket equipment",
       "Soft drinks and water",
       "Cricket coaching sessions",
-      "Video recording for analysis"
+      "Video recording for performance analysis",
+      "Bowling machine rental available"
     ],
     "notAllowed": [
       "Outside food",
-      "Hard cricket balls (indoor balls only)",
       "Non-cricket activities",
-      "Smoking and alcohol"
+      "Smoking, alcohol, or substance use",
+      "Chewing gum inside the playing area",
+      "Knocking or playing in the seating area",
+      "Spike shoes, rubber spikes, or rail-type spikes",
+      "Non-marking indoor shoes are mandatory",
+      "Players under the influence will be denied entry"
     ],
-    "pricing": "$60/hour | $200/4 hours",
-    "instructions": [
-      "Check in at reception desk",
-      "Wear appropriate cricket shoes",
-      "Return all equipment after use",
-      "Report any damage immediately"
-    ]
-    
+    "pricing": "$44/hour"
   },
   {
     "id": "lane-bowling",
@@ -42,30 +44,23 @@
     ],
     "description": "Premium lane equipped with automated bowling machine for consistent practice sessions.",
     "rules": [
-      "Maximum 3 players per booking",
-      "Bookings are in 1-hour slots",
-      "Machine operation training required",
-      "Staff supervision mandatory"
+      "Only authorized users may operate the bowling machine",
+      "Use only balls approved for bowling machine use",
+      "Do not exceed the machine’s maximum speed and setting limits",
+      "Report any malfunction or damage immediately"
     ],
     "allowed": [
-      "Personal cricket equipment",
-      "Soft drinks and water",
-      "Cricket coaching sessions",
-      "Video recording for analysis"
+      "Adjusting speed, line, and length using provided controls",
+      "Using approved indoor bowling machine balls",
+      "Coaching and performance training using the machine",
+      "Video recording for batting performance analysis"
     ],
     "notAllowed": [
-      "Operating machine without training",
-      "Outside food",
-      "Hard cricket balls (machine balls only)",
-      "Smoking and alcohol"
+      "Tampering with internal components or opening the machine",
+      "Standing in front of the machine while it is active",
+      "Using damaged, wet, or unsuitable balls",
+      "Unauthorized repair, adjustment, or relocation of the machine"
     ],
-    "pricing": "$80/hour | $280/4 hours",
-    "instructions": [
-      "Complete bowling machine safety briefing",
-      "Check in at reception desk",
-      "Wear appropriate protective gear",
-      "Do not adjust machine settings without staff",
-      "Return all equipment after use"
-    ]
+    "pricing": "$15/hour"
   }
 ]
