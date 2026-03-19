@@ -1,5 +1,5 @@
 import { Target, Users, Award, Clock } from 'lucide-react';
-import mrmGroup from '../../assets/MRM-76.jpg'; // Replace with MRM-group.jpg once saved to src/assets
+import mrmGroup from '../../assets/MRM-group.jpg';
 
 export function About() {
   const features = [

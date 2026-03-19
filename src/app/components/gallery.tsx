@@ -1,24 +1,24 @@
 import Masonry from 'react-responsive-masonry';
-import mrmLanesWide from '../../assets/MRM-lanes-wide.jpg';
+import mrm155 from '../../assets/MRM-155.jpg';
 import mrm1 from '../../assets/MRM-1.jpg';
 import mrm3 from '../../assets/MRM-3.jpg';
 import mrm4 from '../../assets/MRM-4.jpg';
 import mrm76 from '../../assets/MRM-76.jpg';
+import mrmTrophy1 from '../../assets/MRM-trophy-1.jpg';
+import mrmTrophy2 from '../../assets/MRM-trophy-2.jpg';
+import mrm151 from '../../assets/MRM-151.jpg';
+import mrm154 from '../../assets/MRM-154.jpg';
 
 const images = [
-  // Real MRM facility photos — always first
-  mrmLanesWide,
+  mrm155,
   mrm76,
   mrm4,
   mrm3,
   mrm1,
-  // Kept Unsplash: genuine indoor cricket / equipment photos
-  'https://images.unsplash.com/photo-1582617578126-4bdcead11e80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbmV0cyUyMHRyYWluaW5nfGVufDF8fHx8MTc2NTcwMTcwNXww&ixlib=rb-4.1.0&q=80&w=1080',
-  'https://images.unsplash.com/photo-1765429154824-b4a7dd58f7c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZXF1aXBtZW50fGVufDF8fHx8MTc2NTcwMTc3MHww&ixlib=rb-4.1.0&q=80&w=1080',
-  'https://images.unsplash.com/photo-1759300642158-5082997437d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwcGxheWVycyUyMHRyYWluaW5nfGVufDF8fHx8MTc2NTcwMTc3MXww&ixlib=rb-4.1.0&q=80&w=1080',
-  'https://images.unsplash.com/photo-1745180266203-5d648c4f4f37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwcGl0Y2glMjBpbmRvb3J8ZW58MXx8fHwxNzY1NzAxNzA2fDA&ixlib=rb-4.1.0&q=80&w=1080',
-  // Removed: outdoor cricket academy (photo-1585489509210) — not relevant to indoor facility
-  // Removed: bowling sport machine (photo-1564936094874) — wrong sport entirely
+  mrmTrophy1,
+  mrmTrophy2,
+  mrm151,
+  mrm154,
 ];
 
 export function Gallery() {
@@ -30,7 +30,7 @@ export function Gallery() {
             Gallery
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Explore our world-class facilities and training environment
+            Opening Ceremony of MRM Sports — A night to remember with our incredible community
           </p>
         </div>
 

@@ -1,4 +1,5 @@
 import { Phone, Calendar, Users, Star, Zap } from 'lucide-react';
+import kidsCricket from '../../assets/kids-cricket-2.jpg';
 
 const PHONE = '647-997-7132';
 
@@ -9,11 +10,12 @@ export function SummerCamp() {
       {/* Background image — kids playing sports outdoors in summer */}
       <div className="absolute inset-0 z-0">
         <img
-          src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&w=1920"
-          alt="Summer sports camp background"
-          className="w-full h-full object-cover object-center"
+          src={kidsCricket}
+          alt="Kid batting in cricket summer camp"
+          className="w-full h-full object-cover"
+          style={{ objectPosition: '30% 50%', transform: 'scale(1.15)', transformOrigin: 'center center' }}
         />
-        {/* Dark blue tinted overlay so text stays readable */}
+        {/* Dark blue overlay */}
         <div className="absolute inset-0" style={{ background: 'linear-gradient(135deg, rgba(0,66,139,0.88) 0%, rgba(26,54,93,0.85) 60%, rgba(10,31,61,0.92) 100%)' }} />
       </div>
 
@@ -23,7 +25,7 @@ export function SummerCamp() {
         <div className="flex justify-center mb-6">
           <span className="inline-flex items-center gap-2 bg-yellow-400 text-blue-900 font-bold text-sm px-5 py-2 rounded-full uppercase tracking-wide shadow-lg">
             <Zap className="w-4 h-4" />
-            Early Bird Prices — Limited Spots!
+            🏏 Early Bird Prices — Limited Spots!
           </span>
         </div>
 
