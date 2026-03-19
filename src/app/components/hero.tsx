@@ -1,27 +1,39 @@
 import { BOOKING_URL } from '../../config/siteConfig';
+import mrmLanesWide from '../../assets/MRM-3.jpg';
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-20">
+    <section className="relative min-h-screen flex items-end justify-center pt-20 pb-24">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="https://images.unsplash.com/photo-1641352848874-c96659e03144?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmRvb3IlMjBjcmlja2V0JTIwZmFjaWxpdHl8ZW58MXx8fHwxNzY1NzAxNjYwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-          alt="Indoor Cricket Facility"
+        <img
+          src={mrmLanesWide}
+          alt="MRM Sports Indoor Cricket Facility"
           className="w-full h-full object-cover"
+          style={{ objectPosition: '50% 60%' }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/50"></div>
+        {/* Strong centre-focused overlay so text always pops */}
+        <div className="absolute inset-0" style={{ background: 'linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.25) 50%, rgba(0,0,0,0.75) 100%)' }}></div>
       </div>
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
+        <h1
+          className="text-5xl md:text-7xl font-bold text-white mb-6"
+          style={{ textShadow: '0 2px 16px rgba(0,0,0,0.85), 0 1px 4px rgba(0,0,0,0.9)' }}
+        >
           Welcome to MRM Sports
         </h1>
-        <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
+        <p
+          className="text-xl md:text-2xl text-white mb-8 max-w-3xl mx-auto"
+          style={{ textShadow: '0 1px 8px rgba(0,0,0,0.8)' }}
+        >
           Canada's Premier Indoor Cricket Facility
         </p>
-        <p className="text-lg text-white/80 mb-12 max-w-2xl mx-auto">
+        <p
+          className="text-lg text-white/90 mb-12 max-w-2xl mx-auto"
+          style={{ textShadow: '0 1px 6px rgba(0,0,0,0.75)' }}
+        >
           Experience world-class cricket training with state-of-the-art lanes and professional equipment
         </p>
         <a 

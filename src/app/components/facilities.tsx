@@ -3,6 +3,9 @@ import Slider from 'react-slick';
 import { ExternalLink, CheckCircle, XCircle, DollarSign, Info } from 'lucide-react';
 import facilitiesData from './facilities.json';
 import { BOOKING_URL } from '../../config/siteConfig';
+import mrm3 from '../../assets/MRM-3.jpg';
+import mrm4 from '../../assets/MRM-4.jpg';
+import mrmLanesWide from '../../assets/MRM-lanes-wide.jpg';
 
 interface Facility {
   id: string;
@@ -16,7 +19,18 @@ interface Facility {
   bookingUrl: string;
 }
 
-const facilities: Facility[] = facilitiesData as Facility[];
+const rawFacilities: Facility[] = facilitiesData as Facility[];
+
+// Override images with actual MRM facility photos
+const facilityImages: Record<string, string[]> = {
+  'lane': [mrmLanesWide, mrm3],
+  'lane-bowling': [mrm4, mrm3],
+};
+
+const facilities: Facility[] = rawFacilities.map((f) => ({
+  ...f,
+  images: facilityImages[f.id] ?? f.images,
+}));
 
 export function Facilities() {
   const sliderSettings = {
@@ -50,10 +64,11 @@ export function Facilities() {
                   <Slider {...sliderSettings} className="facility-slider h-full">
                     {facility.images.map((image, index) => (
                       <div key={index} className="relative h-full">
-                        <img 
+                        <img
                           src={image}
                           alt={`${facility.name} - Image ${index + 1}`}
-                          className="block w-full h-full object-cover"
+                          className="block w-full object-cover object-center"
+                          style={{ height: '256px' }}
                         />
                       </div>
                     ))}

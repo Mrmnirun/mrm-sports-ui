@@ -1,4 +1,5 @@
 import { Target, Users, Award, Clock } from 'lucide-react';
+import mrmGroup from '../../assets/MRM-76.jpg'; // Replace with MRM-group.jpg once saved to src/assets
 
 export function About() {
   const features = [
@@ -39,10 +40,11 @@ export function About() {
 
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div>
-            <img 
-              src="https://images.unsplash.com/photo-1761757106447-e6f2aba2dad6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwdHJhaW5pbmclMjBiYXR0aW5nfGVufDF8fHx8MTc2NTcwMTY2MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-              alt="Cricket Training"
-              className="rounded-2xl shadow-2xl"
+            <img
+              src={mrmGroup}
+              alt="MRM Sports community at the grand opening"
+              className="rounded-2xl shadow-2xl w-full object-cover object-top"
+              style={{ maxHeight: '480px' }}
             />
           </div>
           <div>

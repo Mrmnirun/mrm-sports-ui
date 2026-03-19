@@ -1,5 +1,6 @@
 import { Navigation } from './components/navigation';
 import { Hero } from './components/hero';
+import { SummerCamp } from './components/summer-camp';
 import { About } from './components/about';
 import { Facilities } from './components/facilities';
 import { Gallery } from './components/gallery';
@@ -12,6 +13,7 @@ export default function App() {
     <div className="min-h-screen">
       <Navigation />
       <Hero />
+      <SummerCamp />
       <About />
       <Facilities />
       <Gallery />

@@ -1,14 +1,24 @@
 import Masonry from 'react-responsive-masonry';
+import mrmLanesWide from '../../assets/MRM-lanes-wide.jpg';
+import mrm1 from '../../assets/MRM-1.jpg';
+import mrm3 from '../../assets/MRM-3.jpg';
+import mrm4 from '../../assets/MRM-4.jpg';
+import mrm76 from '../../assets/MRM-76.jpg';
 
 const images = [
+  // Real MRM facility photos — always first
+  mrmLanesWide,
+  mrm76,
+  mrm4,
+  mrm3,
+  mrm1,
+  // Kept Unsplash: genuine indoor cricket / equipment photos
   'https://images.unsplash.com/photo-1582617578126-4bdcead11e80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwbmV0cyUyMHRyYWluaW5nfGVufDF8fHx8MTc2NTcwMTcwNXww&ixlib=rb-4.1.0&q=80&w=1080',
-  'https://images.unsplash.com/photo-1585489509210-658421e53aa9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwYWNhZGVteXxlbnwxfHx8fDE3NjU3MDE3NzB8MA&ixlib=rb-4.1.0&q=80&w=1080',
   'https://images.unsplash.com/photo-1765429154824-b4a7dd58f7c3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZXF1aXBtZW50fGVufDF8fHx8MTc2NTcwMTc3MHww&ixlib=rb-4.1.0&q=80&w=1080',
   'https://images.unsplash.com/photo-1759300642158-5082997437d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwcGxheWVycyUyMHRyYWluaW5nfGVufDF8fHx8MTc2NTcwMTc3MXww&ixlib=rb-4.1.0&q=80&w=1080',
-  'https://images.unsplash.com/photo-1641352848874-c96659e03144?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbmRvb3IlMjBjcmlja2V0JTIwZmFjaWxpdHl8ZW58MXx8fHwxNzY1NzAxNjYwfDA&ixlib=rb-4.1.0&q=80&w=1080',
-  'https://images.unsplash.com/photo-1761757106447-e6f2aba2dad6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwYmF0dGluZyUyMHByYWN0aWNlfGVufDF8fHx8MTc2NTcwMTc3MXww&ixlib=rb-4.1.0&q=80&w=1080',
   'https://images.unsplash.com/photo-1745180266203-5d648c4f4f37?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwcGl0Y2glMjBpbmRvb3J8ZW58MXx8fHwxNzY1NzAxNzA2fDA&ixlib=rb-4.1.0&q=80&w=1080',
-  'https://images.unsplash.com/photo-1564936094874-9dbb71be4074?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxib3dsaW5nJTIwbWFjaGluZSUyMGNyaWNrZXR8ZW58MXx8fHwxNzY1NzAxNzA2fDA&ixlib=rb-4.1.0&q=80&w=1080'
+  // Removed: outdoor cricket academy (photo-1585489509210) — not relevant to indoor facility
+  // Removed: bowling sport machine (photo-1564936094874) — wrong sport entirely
 ];
 
 export function Gallery() {
