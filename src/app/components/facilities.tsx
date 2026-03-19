@@ -5,7 +5,7 @@ import facilitiesData from './facilities.json';
 import { BOOKING_URL } from '../../config/siteConfig';
 import mrm3 from '../../assets/MRM-3.jpg';
 import mrm4 from '../../assets/MRM-4.jpg';
-import mrmLanesWide from '../../assets/MRM-lanes-wide.jpg';
+import mrm76 from '../../assets/MRM-76.jpg';
 
 interface Facility {
   id: string;
@@ -23,7 +23,7 @@ const rawFacilities: Facility[] = facilitiesData as Facility[];
 
 // Override images with actual MRM facility photos
 const facilityImages: Record<string, string[]> = {
-  'lane': [mrmLanesWide, mrm3],
+  'lane': [mrm76, mrm3],
   'lane-bowling': [mrm4, mrm3],
 };
 
